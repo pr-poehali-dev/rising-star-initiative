@@ -13,13 +13,13 @@ export function Hero() {
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
-        <Pill className="mb-6">ОТ 1 КГ ДО 20 ТОНН+</Pill>
+        <Pill className="mb-6">КРАСНОЯРСК · ЛЮБЫЕ МАРКИ</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
-          Грузоперевозки <br />
-          и <i className="font-light">импорт</i> из Китая
+          Ремонт вашего <br />
+          <i className="font-light">автомобиля</i> в Красноярске
         </h1>
         <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[440px] mx-auto">
-          Один подрядчик на всё: от курьерских машин до фур и контейнеров. Оплата в рублях, без скрытых комиссий
+          Качественный автосервис для любых иномарок — диагностика, слесарный и кузовной ремонт, шиномонтаж и ТО
         </p>
 
         <a className="contents max-sm:hidden" href="#contact">
@@ -28,7 +28,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Рассчитать доставку]
+            [Записаться на сервис]
           </Button>
         </a>
         <a className="contents sm:hidden" href="#contact">
@@ -38,7 +38,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Рассчитать доставку]
+            [Записаться на сервис]
           </Button>
         </a>
       </div>
